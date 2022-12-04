@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.box {
+	margin-bottom: 20px;
+}
+
+label {
+	color: red;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+input {
+	caret-color: #ff0000;
+	outline: none;
+	width: 300px;
+}
+
+input:focus {
+	/* box-shadow: 0 0 2px 2px #f00; */
+	/* border: 3px solid #48f0ff; */
+}
+
+textarea {
+	width: 400px;
+	resize: vertical;
+}
+
+select {
+	padding: 10px 40px 10px 20px;
+	appearance: none;
+	background-image: url('../down-filled-triangular-arrow.png');
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+	background-size: 16px 16px;
+}

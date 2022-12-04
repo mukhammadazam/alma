@@ -1,0 +1,43 @@
+body{
+    background-color: #333;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.titli{
+    text-align: center;
+}
+
+.box{
+    margin-left: 60px;
+    color: #fff;
+}
+
+
+
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+
+}
+
+.img{
+    border-radius: 50%;
+    margin-left: 180px;
+
+}
+
+.list :nth-child(2){
+    margin: 0 20px;
+}
+
+.text-2{
+    margin-left: 180px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+.contaener{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.praduct-img{
+    margin: 0;
+}
+.praduct-list{
+    display: flex;
+   
+}
+
+.praduct{
+    
+    list-style: none;
+    margin: 0 20px;
+    font-size: 15px;
+line-height: 28px;
+
+
+
+
+
+
+
+
+
+}
+
+.praduct-link{
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.sign-link{
+    text-decoration: none;
+    margin: 0  0 0 150px;
+    color: #2F281E;
+    border: 1px solid #BCD0E5;
+    padding: 10px 15px;
+
+}
+ .active-link{
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 10px 15px;
+
+}
+
+.thi-titli{
+    font-size: 44px;
+    width: 550px;
+   
+    
+    
+    color: #2F281E;
+}
+
+.thi-text{
+    font-size: 18px;
+    
+    
+    color: #544837;
+    width: 486px;
+}
+ 
+.thi-link{
+    text-decoration: none;
+    padding: 15px 30px;
+background: #FF9900;
+border-radius: 4px;
+}
+.active-text{
+    color: white;
+}
+.thi-box{
+    display: flex;
+    align-items: center;
+
+}
+
+.box-link{
+   
+font-size: 16px;
+
+
+text-decoration-line: underline;
+
+color: #FF9900;
+}
+
+.tools-titli{
+    text-align: center;
+
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.continer{
+width: 1240px;
+margin: 0 auto;
+}
+
+.header-site{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.bay{
+    border-radius: 50%;
+}
+
+.item{
+    margin: 5px;
+}

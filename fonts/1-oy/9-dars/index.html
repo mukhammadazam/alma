@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
+
+      <div class="box">
+        <label for="user-name">
+          Ismingizni kiriting
+        </label>
+        <input type="text" name="user_name" id="user-name" placeholder="Ismingizni kiriting" required>
+      </div>
+
+      <div class="box">
+        <label for="user-surname">
+          Familiyangizni kiriting
+        </label>
+        <input type="text" name="user_surname" id="user-surname" placeholder="Familiyangizni kiriting" required>
+      </div>
+
+      <div class="box">
+        <label>
+          Yoshingizni kiriting
+          <input type="number" name="user_age" placeholder="Yoshingizni kiriting" min="18" max="30" required>
+        </label>
+      </div>
+
+      <div class="box">
+        <label for="user-email">
+          Elektron pochtangizni kiriting
+        </label>
+        <input type="email" name="user_email" placeholder="Elektron pochtangizni kiriting" required>
+      </div>
+
+      <div class="box">
+        <label title="Telefon raqamingizni kiriting">
+          <input type="tel" name="user_phone_number" value="+998" placeholder="Telefon raqamingizni kiriting"
+            minlength="9" maxlength="13" required>
+        </label>
+      </div>
+
+      <div class="box">
+        <input type="date" name="user_birthday" placeholder="Tug'ulgan sanagizni kiriting"
+          aria-label="Tug'ulgan sanagizni kiriting" min="2000-01-01" max="2020-01-01" required>
+      </div>
+
+      <div class="box">
+        <label for="user-birthtime">
+          Tug'ulgan soatingizni kiriting
+        </label>
+        <input type="time" name="user_birthtime" placeholder="Tug'ulgan soatingizni kiriting" min="08:00" max="18:00"
+          required>
+      </div>
+
+      <div class="box">
+        <label for="user-color">
+          Yoqtirgan rangizni tanlang
+        </label>
+        <input type="color" name="user_fovorite_color" id="user-color" placeholder="Yoqtirgan rangizni tanlang"
+          required>
+      </div>
+
+      <div class="box">
+        <label for="user-password">
+          Parolingizni kiriting
+        </label>
+        <input type="password" name="user_password" id="user-password" placeholder="Parolingizni kiriting" required>
+      </div>
+
+      <div class="box">
+        <label for="user-photo">
+          Rasmingizni kiriting
+        </label>
+        <input type="file" name="user_photo" multiple id="user-photo" placeholder="Rasmingizni kiriting" required>
+      </div>
+
+      <div class="box">
+        <label for="user-dardi">
+          Oka dardizni yozuvrin
+        </label>
+        <textarea name="user_dardi" id="user-dardi" rows="10" required></textarea>
+      </div>
+
+
+      <div class="box">
+        <label for="user-pizza">
+          Yoqtirgan pitsangizni tanglang
+        </label>
+        <select name="user_pizza" id="user-pizza" required>
+          <option selected disabled>Choose your pizza</option>
+          <option value="1">Donar pitsa</option>
+          <option value="2">Salsa pitsa</option>
+          <option value="3">Gurme pitsa</option>
+          <option value="4">Chicken karri pitsa</option>
+          <option value="5">Pepperoni pitsa</option>
+        </select>
+      </div>
+
+
+
+      <button type="submit">SEND</button>
+      <button type="reset">RESET</button>
+
+    </form>
+
+
+    <!-- <form action="" method="">
+      <fieldset>
+        <legend>FORMA</legend>
+        <label for=" fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <button type="submit">SEND</button>
+      </fieldset>
+    </form> -->
+
+  </div>
+
+</body>
+
+</html>

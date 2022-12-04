@@ -1,0 +1,22 @@
+.bod {
+    background-color: brown;
+    text-align: center;
+
+
+}
+.header{
+    color: wheat;
+}
+
+
+
+.title {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.list{
+    display:flexbox;
+    color: aliceblue;
+    border: 4px;
+}

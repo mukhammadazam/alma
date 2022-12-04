@@ -1,0 +1,184 @@
+ *{
+    box-sizing: border-box;
+ }
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+ .contaener{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #aaa;
+
+ }
+ .social-img{
+    vertical-align: middle;
+}
+
+ 
+ .social{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin: 10px;
+    
+     
+}
+
+.social-item{
+    display: flex;
+    list-style: none;
+   
+}
+.social-link{
+   text-decoration: none;
+    font-size: 18px;  
+color: #1f1534;
+opacity: 1;
+margin: 0 20px;
+text-transform: capitalize;
+}
+.social-link-active{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.contaener-1{
+    display:flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.li{
+   
+    vertical-align: middle;
+width: 1200px;
+margin: 0 auto;
+padding: 0 auto;
+list-style: none;
+}
+
+.div{
+    padding: 200px 0 0 0;
+}
+
+
+.social-li {
+    display: block;
+    list-style: none;
+    width: 1000px;
+margin: 0 auto;
+padding: 0 auto;
+    
+}
+
+
+
+   
+    
+
+.social-h1{
+    color: #000;
+    list-style: none;
+    
+
+}
+
+
+
+
+.social-a{
+    display: block;
+    color: #FFF;
+ padding: 15 20 50 75px;
+ text-decoration: none;
+ background: #458FF6;
+ border-radius: 100px;
+ width: 100px;
+ margin: 0 auto;
+ padding: 0 auto;
+
+ 
+ }
+
+.social-p{
+
+ color:#7D7987;
+ list-style: none;
+}
+
+.leni-span{
+    display:flex;
+   margin: 0 auto;
+  height: 2px;
+width: 56px;
+height: 2px;
+background: #000000;
+border-radius: 5px;
+vertical-align: middle;
+}
+
+.hero-ol{
+    list-style: none;
+width: 1200px;
+margin: 0 auto;
+padding: 0 auto;
+}
+
+
+.ul{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+padding: 0 auto;
+}
+
+.ul-2{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+padding: 0 auto;
+} 
+.hero{
+list-style: none;
+width: 1200px;
+margin: 0 auto;
+padding: 0 auto;
+
+}
+.hero-li2{
+    list-style: none;
+width: 1200px;
+margin: 0 auto;
+padding: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                

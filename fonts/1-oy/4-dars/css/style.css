@@ -1,0 +1,30 @@
+.header{
+    background:#85A5D4;
+  padding: 110 110 0 0;
+}
+
+.list{
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+   font-size: 17px;
+   
+   
+
+}
+.titli{
+    color:#5572D6 ;
+    text-transform: capitalize;
+}
+
+.heding{
+    display: inline-block;
+    
+  
+}
+ .boy{
+   color: #C5C0B9;
+   
+ }
+
+

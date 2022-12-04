@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./сss/input.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">EVENY REGISTAIN FORM</h1>
+        <form action="https://echo.htmlacademy.ru/" class="form">
+            <div class="label">
+                <p class="text">NAME</p>
+                <label class="lebil"><input class="input" type="text" name="user_name" required >first-name</label>
+                <label class="lebil"><input class="input" type="text" name="user_fisrt" required>last-name</label>
+            </div>
+            <div class="label">
+                <p class="text">COMPANY</p>
+                <label class="lebil"><input class="input input-active" type="text" name="google"  required></label>
+            </div>
+            <div class="label">
+                <p class="text">Email</p>
+                <label class="lebil"><input class="input input-active" type="text" name="email" placeholder="example.@email.com" required></label>
+            </div>
+            <div class="label">
+                <p class="text">Phone</p>
+                <label class="lebil"><input class="input" type="number" name="age"  required>Area code</label>
+                <label class="lebil"><input class="input" type="tel" name="tel" required> requiredPhone nomber</label>
+            </div>  
+            <div class="label">
+                <p class="text">Subject</p>
+                <select class="select" name="option" id="option"><option class="optima" value="Dropdown option">Dropdown option</option>
+                    <option class="optima1" value="Dropdown option1">Dropdown option1</option>
+                        <option class="optima2" value="Dropdown option2">Dropdown option2</option>
+                    </select>
+            </div>
+            <div class="radio">
+                 <p class="text text-1">Are you an exsting customer </p>
+            </div>
+            <div class="box--1">
+                <input  type="radio" id="contactChoice1"
+            name="contact" value="email">
+           <label class="radio" for="contactChoice1">yes</label>
+           <input  type="radio"
+           name="contact" value="email">
+          <label class="radio-1 " for="contactChoice1">No</label>
+            </div>
+            <div >
+              <button class="btn" type="submit">REGISTER</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

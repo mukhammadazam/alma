@@ -1,0 +1,22 @@
+.header{
+    margin: 0;
+}
+
+.header h1{
+    color: #9597A5;
+    padding: 0 0 0 333px;
+    
+}
+.header-item{
+    display: inline-block;
+    list-style: none;
+width: 400px;
+margin: o auto;
+padding: 0 0 25px 25px;
+   
+}
+
+.header.p{
+   text-transform: uppercase;
+   color: #9597A5;
+}
